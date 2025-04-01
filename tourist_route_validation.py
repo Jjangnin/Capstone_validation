@@ -4,7 +4,7 @@ import itertools
 from geopy.distance import geodesic
 
 # 구글 API 키 (비공개 키 사용 금지)
-API_KEY = 'AIzaSyCRK2h8-8IARsJzERnHe7Pp22HItbYVGE8'
+API_KEY = 'Your_API'
 
 # 삿포로 관광지 검색 (Google Places API)
 def get_places_in_sapporo():
