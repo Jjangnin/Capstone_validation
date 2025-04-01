@@ -5,7 +5,7 @@ import googlemaps
 user_clicks = pd.read_csv(r'C:\Users\Administrator\OneDrive\바탕 화면\캡스톤\Capstone_test\user_clicks.csv')  # CSV 파일 경로 수정
 
 # Google Maps API 키 설정
-API_KEY = 'AIzaSyCRK2h8-8IARsJzERnHe7Pp22HItbYVGE8'  # 실제 구글 API 키로 대체하세요.
+API_KEY = 'Your_API'  # 실제 구글 API 키로 대체하세요.
 gmaps = googlemaps.Client(key=API_KEY)
 
 # 유저 클릭 데이터에서 types 추출 (각 관광지의 types 정보)
